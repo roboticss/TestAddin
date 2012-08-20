@@ -40,27 +40,27 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Extensibility, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-    <Reference Include="AddinExpress.MSO.2005" >
+    <Reference Include="AddinExpress.MSO.2005">
       <HintPath>C:\Program Files (x86)\Add-in Express\Add-in Express for .NET\Bin\AddinExpress.MSO.2005.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Interop.VBIDE.dll" >
+    <Reference Include="Interop.VBIDE.dll">
       <HintPath>Interops\Interop.VBIDE.dll</HintPath>
       <Private>True</Private>
     </Reference>
-	<Reference Include="Interop.Office.dll" >
+    <Reference Include="Interop.Office.dll">
       <HintPath>Interops\Interop.Office.dll</HintPath>
       <Private>True</Private>
     </Reference>
-	<Reference Include="Interop.Excel.dll" >
+    <Reference Include="Interop.Excel.dll">
       <HintPath>Interops\Interop.Excel.dll</HintPath>
       <Private>True</Private>
     </Reference>
-	<Reference Include="Interop.Word.dll" >
+    <Reference Include="Interop.Word.dll">
       <HintPath>Interops\Interop.Word.dll</HintPath>
       <Private>True</Private>
     </Reference>
-	<Reference Include="Interop.Outlook.dll" >
+    <Reference Include="Interop.Outlook.dll">
       <HintPath>Interops\Interop.Outlook.dll</HintPath>
       <Private>True</Private>
     </Reference>
@@ -76,6 +76,12 @@
   <ItemGroup>
     <Compile Include="AddinModule.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
